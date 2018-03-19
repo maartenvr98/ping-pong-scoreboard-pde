@@ -1,0 +1,142 @@
+{
+  "game_type": [
+    {
+      "id": "set_game_type_1",
+      "action": "set_game_type",
+      "value": 0,
+      "coords": {
+        "x": 100,
+        "y": 40,
+        "w": 150,
+        "h": 40
+      }
+
+    },
+    {
+      "id": "set_game_type_2",
+      "action": "set_game_type",
+      "value": 1,
+      "coords": {
+        "x": 325,
+        "y": 40,
+        "w": 150,
+        "h": 40
+      }
+    },
+    {
+      "id": "set_game_type_3",
+      "action": "set_game_type",
+      "value": 2,
+      "coords": {
+        "x": 550,
+        "y": 40,
+        "w": 150,
+        "h": 40
+      }
+    }
+  ],
+  "rule_type": [
+    {
+      "id": "set_rule_type_1",
+      "action": "set_rule_type",
+      "value": 0,
+      "coords": {
+        "x": 200,
+        "y": 150,
+        "w": 150,
+        "h": 40
+      }
+    },
+    {
+      "id": "set_rule_type_2",
+      "action": "set_rule_type",
+      "value": 1,
+      "coords": {
+        "x": 450,
+        "y": 150,
+        "w": 150,
+        "h": 40
+      }
+    }
+  ],
+  "game": [
+    {
+      "id": "start_game",
+      "action": "start_game",
+      "coords": {
+        "x": 320,
+        "y": 300,
+        "w": 160,
+        "h": 40
+      }
+    },
+    {
+      "id": "next_game",
+      "action": "next_game",
+      "coords": {
+        "x": 303,
+        "y": 270,
+        "w": 190,
+        "h": 40
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": "add_point_1",
+      "action": "add_point",
+      "value": 1,
+      "coords": {
+        "x": 160,
+        "y": 150,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "id": "remove_point_1",
+      "action": "remove_point",
+      "value": 1,
+      "coords": {
+        "x": 100,
+        "y": 150,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "id": "add_point_2",
+      "action": "add_point",
+      "value": 2,
+      "coords": {
+        "x": 660,
+        "y": 150,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "id": "remove_point_2",
+      "action": "remove_point",
+      "value": 2,
+      "coords": {
+        "x": 600,
+        "y": 150,
+        "w": 40,
+        "h": 40
+      }
+    }
+  ],
+  "match": [
+    {
+      "id": "close_match",
+      "action": "close_match",
+      "coords": {
+        "x": 760,
+        "y": 10,
+        "w": 30,
+        "h": 30
+      }
+    }
+  ]
+}
