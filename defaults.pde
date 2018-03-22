@@ -94,13 +94,20 @@ void setRuleType(int type) {
   }
 }
 
-public boolean confirm(String title, String msg) {
+boolean confirm(String title, String msg) {
   Object[] options = {lang.getString("yes"), lang.getString("no")};
   int result = JOptionPane.showOptionDialog(null, msg, title,
           JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE,
           null, options, options[0]);
 
   return result!=1;
+}
+
+void alert(String title, String msg) {
+  Object[] options = {lang.getString("ok")};
+  JOptionPane.showOptionDialog(null, msg, title,
+    JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE,
+    null, options, options[0]);
 }
 
 void message(String text, int r, int g, int b) {

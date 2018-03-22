@@ -13,6 +13,8 @@
   "rules": "Rules: ",
   "start-game": "Start match",
   "next-game": "Next game",
+  "alert-side-change-title": "Change sides",
+  "alert-side-change-text": "Players please change sides",
   "confirm-stop-title": "Exit match",
   "confirm-stop-text": "Are you sure you want to exit the match?",
   "confirm-save-title": "Save match",
@@ -20,5 +22,6 @@
   "confirm-saved-title": "Saved match",
   "confirm-saved-text": "Do you want to load the saved match?",
   "yes": "Yes",
-  "no": "No"
+  "no": "No",
+  "ok": "Ok"
 }

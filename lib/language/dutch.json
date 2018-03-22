@@ -1,5 +1,5 @@
 {
-  "title": "Scoreboard tafeltennis",
+  "title": "Scorebord tafeltennis",
   "best-of-3": "Beste van 3",
   "best-of-5": "Beste van 5",
   "best-of-7": "Beste van 7",
@@ -13,6 +13,8 @@
   "rules": "Regels: ",
   "start-game": "Start spel",
   "next-game": "Volgende spel",
+  "alert-side-change-title": "Plaats veranderen",
+  "alert-side-change-text": "Spelers! Verander van plaats",
   "confirm-stop-title": "Wedstrijd stoppen",
   "confirm-stop-text": "Weet je zeker dat je de wedstrijd wilt stoppen?",
   "confirm-save-title": "Wedstrijd opslaan",
@@ -20,5 +22,6 @@
   "confirm-saved-title": "Opgeslagen wedstrijd",
   "confirm-saved-text": "Wil je de opgeslagen wedstrijd ophalen?",
   "yes": "Ja",
-  "no": "Nee"
+  "no": "Nee",
+  "ok": "Oke"
 }

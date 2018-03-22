@@ -37,4 +37,5 @@ void changeSide() {
   else {
       sides = 12;
   }
+  alert(lang.getString("alert-side-change-title"), lang.getString("alert-side-change-text")); 
 }
