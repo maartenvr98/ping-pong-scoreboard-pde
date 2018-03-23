@@ -1,3 +1,57 @@
 {
+  "paused": false,
+  "players": {
+    "player_1": {
+      "games_win": 2,
+      "name": "Speler 1",
+      "id": 1,
+      "points": 0
+    },
+    "player_2": {
+      "games_win": 0,
+      "name": "Speler 2",
+      "id": 2,
+      "points": 0
+    }
+  },
+  "total_points": 0,
   "active": false,
+  "games_played": 2,
+  "sides_changed_in_last_game": false,
+  "game_type": 2,
+  "rule_type": 1,
+  "service": 1,
+  "change_fast": true,
+  "games": {
+    "game_6": {
+      "id": 6,
+      "played": false
+    },
+    "game_5": {
+      "id": 5,
+      "played": false
+    },
+    "game_2": {
+      "id": 2,
+      "played": true
+    },
+    "game_1": {
+      "id": 1,
+      "played": true
+    },
+    "game_4": {
+      "id": 4,
+      "played": false
+    },
+    "game_3": {
+      "id": 3,
+      "played": false
+    },
+    "game_0": {
+      "id": 0,
+      "played": false
+    }
+  },
+  "sides": 12,
+  "current_game": 3
 }
