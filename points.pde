@@ -34,20 +34,22 @@ void removePoint(int player) {
           points[player] -= 1;
           totalPoints -= 1;
       }
+      updateService();
   }
   else {
       if(gameFinish()) {
-          if(points[player] > 0) {
-              if(getGameWinner() == player) {
-                  games[currentGame] = false;
-                  gamesWin[getGameWinner()] -= 2; //need to be 2 because updateGame() is fired twice
-                  playersLabel[getGameWinner()] = " ("+gamesWin[getGameWinner()]+")";
-              }
-              points[player] -= 1;
-              totalPoints -= 1;
-              loop();
+          if(!matchFinish() && getGameWinner() == player) {
+            if(points[player] > 0) {
+                if(getGameWinner() == player) {
+                    games[currentGame] = false;
+                    gamesWin[getGameWinner()] -= 2; //need to be 2 because updateGame() is fired twice
+                    playersLabel[getGameWinner()] = " ("+gamesWin[getGameWinner()]+")";
+                }
+                points[player] -= 1;
+                totalPoints -= 1;
+                loop();
+            }
           }
       }
   }
-  updateService();
 }
